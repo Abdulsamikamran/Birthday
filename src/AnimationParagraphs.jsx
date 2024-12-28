@@ -10,13 +10,13 @@ const AnimationParagraphs = () => {
         <img src={love} width={40} />
       </div>
       <motion.p
-        className="mb-4"
+        className="mb-4 px-8"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
       >
         Every day with you feels like a dream come true.
-        <div className="flex justify-center flex-wrap">
+        <div className="flex justify-center  flex-wrap">
           <span>
             I love you more than words could ever express. You are the light of
             my life, and I cherish every moment with you. I know we disagree on

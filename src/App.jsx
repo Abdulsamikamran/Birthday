@@ -41,7 +41,7 @@ const App = () => {
       {currentScreen === "question" && (
         <div className="flex flex-col items-center justify-center h-full bg-gradient-to-r from-pink-500 to-yellow-500 text-white">
           <h1 className="text-4xl text-center font-bold mb-8">
-            Pehlay mereko ye btao do you love me?
+            Pehlay mujhai ye btao do you love me?
           </h1>
           <div className="flex space-x-4">
             <button
@@ -62,16 +62,16 @@ const App = () => {
 
       {currentScreen === "love" && (
         <div className="flex flex-col items-center justify-center h-full bg-gradient-to-r from-purple-500 to-pink-500 text-white">
-          <h1 className="text-4xl font-bold text-center">
-            arrayyy I love you too my princess 💖
+          <h1 className="text-2xl font-bold text-center">
+            arrayyy I love you more my princess 💖
           </h1>
         </div>
       )}
 
       {currentScreen === "sad" && (
         <div className="flex flex-col items-center justify-center h-full bg-gradient-to-r from-gray-500 to-black text-white">
-          <h1 className="text-4xl font-bold text-center">
-            pata tha mereko khair...😢
+          <h1 className="text-2xl font-bold text-center">
+            pata tha mujhai chalo kia kr saktay hain I still love you...😔
           </h1>
         </div>
       )}
